@@ -1,0 +1,167 @@
+/* Container 1 items*/
+#heading_container{
+	display: flex;
+	justify-content: space-between;
+	background-color: aquamarine;
+	width: 100%;
+}
+#logo{
+	padding-left: 25px;
+	padding-top: 25px;
+}
+#heading_links {
+	display: flex;
+	margin: 30px;
+	}
+ul li{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px;
+}
+/* Container 1 items*/
+
+/* Container 2 items*/
+#mid_container{
+	display: flex;
+	background-color: beige;
+	border:	double black 5px;
+}
+#item_3container{
+	width: 250px;
+	height: 250px;
+	font-size: 20px;
+	margin: 100px;
+
+
+}
+#item_3{ 
+	width: 100%;
+}
+
+#item_4{
+	width: 250px;
+	height: 250px;
+	margin: 100px;
+}
+/* Container 2 items*/
+
+/* Container 3 items*/
+
+#flex_container3{
+	display: flex;
+	justify-content: space-between;
+	background-color: beige;
+	padding-bottom: 100px;
+	border:	double black 5px;
+}
+
+#item_5{
+	margin-left: 100px;
+	width: 400px;
+	height: 200px;
+}
+
+#item_5 p{
+	width: 100%;
+}
+
+#item_6{
+	margin-right: 100px;
+	width: 400px;
+	height: 200px;
+}
+
+#item_6 p { 
+	width: 100%;
+}
+
+#flex_container3 h2{
+	width: 130px;
+	border: 5px solid white;
+}
+
+#flex_container4{ 
+	border:	double black 5px;
+}
+
+#heading_7{
+	padding-left: 50px;
+	padding-top: 25px;
+}
+
+.pics{
+	width: 100%;
+	height: 150px;
+}
+
+.whychooseus{
+	width: 100%;
+	margin: 30px;
+}
+
+#flex_container5{
+	display: flex;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-bottom: 40px;
+}
+/* Container 3 items*/
+
+
+
+@media only screen and (max-width: 768px) {
+
+#heading_container{ 
+	display: block;
+}
+#logo{
+	display: block;
+}
+#heading_links{
+	display: block;
+}
+
+#mid_container{
+	display: block;
+}
+#flex_container3{
+	display: block;
+	width: 349px;
+}
+#item_3container{
+	width: 250px;
+	height: 250px;
+	font-size: 20px;
+	margin: 100px;
+}
+#item_3{
+	width: 150px;
+}
+
+#item_5{
+	margin-left: 0px;
+    width: 400px;
+    height: 200px;
+}
+#item_6{
+	margin-right: 0px;
+	width: 400px;
+	height: 200px;
+}
+
+#flex_container5{
+	display: block;
+	justify-content: space-around;
+	padding-left: 0px;}
+
+#item_5 p{
+	width: 220px;
+}
+	
+#item_6 p {
+	width: 220px;
+}
+	
+
+
+}
